@@ -1,0 +1,510 @@
+/**{
+    margin: 0%;
+    padding: 0%;
+}
+.sten-logo{
+    width: 100%;
+    height: 100px;
+}
+*/
+
+aside{
+    background-color: red;
+}
+.sp  a{
+    padding: 10px;
+    color: white;
+     font-size: 24px;
+     transform: none;
+     text-decoration: none;
+} 
+.space a{
+    padding: 10px;
+    color: white;
+     font-size: 24px;
+     transform: none;
+     
+     text-decoration: none;
+}
+.sp{
+    padding-bottom: 20px;
+}
+.space{
+    padding-bottom: 43px;
+}
+
+.sten{
+    background-color: orange;
+    border-radius: 10px;
+    color: white;
+    padding: 9px;
+    font-size: 15px;
+    justify-content: baseline;
+
+
+}
+.h2{
+    background-color: orange;
+    border-radius: 10px;
+    color: white;
+    padding: 9px;
+    font-size: 15px;
+    margin-top: 110px;
+    justify-content: baseline;
+}
+.marq  a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.marq{
+    background-color: white;
+    width: 750px;
+    height: 200px;
+}
+article{
+    margin-top: 9px;
+    margin-left: 200px;
+    text-align: center;
+    display: flex;
+    gap: 20px;
+}
+
+h3{
+    color: red;
+    padding: 9px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 2px;
+}
+.ank{
+    color: blue;
+}
+.sten-logo{
+    width: 100%;
+
+    height: 100px;
+}
+.qua{
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px black;
+    text-align: center;
+}
+.qua{
+    display: flex;
+    margin: 7%;
+    align-items: center;
+    justify-content: center;
+}
+
+.quality1{
+    padding: 10px;
+    width: 400px;
+}
+.quality{
+    width: 400px;
+    padding: 10px;
+}
+.pa{
+    margin-left: 40px;
+}
+.par{
+    margin-right: 70px;
+}
+.q{  margin-left: 10%;
+    margin-top: 7%;
+    font-size: 20px;
+}
+#bar{
+    width: 300px;
+    padding: 20px;
+    height: 180px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+
+header{
+    margin-left: 30%;
+    margin-top: 5%;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.placement{
+    display: flex;
+    gap: 30px;
+   align-items: center;
+   justify-content: center;
+    margin-bottom: 70px;
+   
+    width: 600px;
+  
+}
+.palacement2{
+    gap: 30px;
+    margin-bottom: 40px;
+    gap: 30px;
+   align-items: center;
+   justify-content: center;
+    width: 600px;
+    display: flex;
+}
+  
+
+.placement img{
+    width: 300px;
+    height: auto;
+}
+.palacement2 img{
+    width: 300px;
+    height: auto;
+}
+#mouse{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    color: white;
+    text-align: center;
+    text-justify: center;
+    gap: 6px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    opacity: 0;  
+    transform: opacity 0.27s;
+    transition: opacity 0.4s ease-in-out;
+}
+.overlay:hover{
+    opacity: 1;
+}
+.image_overlay{
+    font-size: 1.2rem;
+    margin-top: 24%;
+}
+.card{
+    position: relative;
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.card{
+    position: relative;
+    width: 700px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px black;
+}
+.card-part{
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 7;
+    background-image: url("images/IMG_20220518_195245.jpg");
+    animation: sai 28s cubic-bezier(0,0,0,0.97) infinite;
+    transform: translateX(700px);
+}
+.card_part-two{
+    background-image: url("images/IMG_20220518_195219.jpg");
+    z-index: 6;
+    animation-delay: 7s;
+}
+.card_part-three{
+    background-image: url("images/IMG_20220518_195403.jpg");
+    z-index: 5;
+    animation-delay: 14s;
+}
+.card_part-four{
+    background-image: url("images/IMG_20220518_195339.jpg");
+    z-index: 4;
+    animation-delay: 21s;
+}
+@keyframes sai {
+    3%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    28%{
+        transform: translateX(-700px);
+    }
+    100%{
+        transform: translateX(-700px);
+    }
+}
+.pading{
+    padding: 10px;
+}
+.card1{
+  
+    position: relative;
+    width: 600px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px black;
+}
+.card-art{
+    line-height: 1.5;
+    padding: 30px;
+    padding-right: 20px;
+    position: absolute;
+    align-items: center;
+    width: 550px;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 7;
+    animation: datt 29s cubic-bezier(0,0,0,0.97) infinite;
+    transform: translateX(700px);
+}
+.car_part-two{
+    
+    z-index: 6;
+    animation-delay: 7s;
+}
+.car_part-three{
+   
+    z-index: 5;
+    animation-delay: 15s;
+}
+.car_part-four{
+   
+    z-index: 4;
+    animation-delay: 23s;
+}
+@keyframes datt {
+3%{
+    transform: translateX(0);
+}
+25%{
+    transform: translateX(0);
+}
+28%{
+    transform: translateX(-700px);
+}
+100%{
+    transform: translateX(-700px);
+}
+}
+
+input[type=text]{
+    padding: 10px;
+    width: 300px;
+
+}
+.btn{
+    margin-top: 10px;
+}
+.submit{
+   
+    display: inline;
+    gap: 30px;
+   
+}
+.submit .input{
+    margin-top: 20px;
+
+
+}
+nav{
+    background-color: red;
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+.last{
+    font-size: 20px;
+    color: white;
+}
+
+.submit{
+    width: 500px;
+    
+    padding-left: 20px;
+}
+.place{
+    margin-top: 40px;
+    display: flex;
+    overflow-x: scroll;
+    justify-content: space-between;
+}
+.selector{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.selection{
+    margin-top: 150px;
+}
+.innersection2  img{
+    width: 140px;
+    height: 140px;
+}
+h4{
+    font-weight: 300;
+    font-size: 20px;
+}
+svg{
+    padding: 10px;
+}
+.socialmedia{
+    background-color: rgb(34, 34, 34);
+}
+.login{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+justify-items: baseline;
+}
+.login a{
+    padding: 10px;
+    color: black;
+     font-size: 24px;
+     text-decoration: none;
+} 
+.fiest{
+    display: flex;
+    justify-content: space-between;
+    justify-content: baseline;
+}
+
+.student-login{
+    font-size: 25px;
+}
+.onee{
+    width: 40%;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.twoo{
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    opacity: 0;
+    
+    background: black;
+}
+.three{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+}
+.three:hover .overlay1{
+    opacity: 0.8
+}
+.slidebar{
+    display: none;
+    margin-right: 20px;
+    position: fixed;
+    transition: 0.9ms;
+    top: 0%;
+    left: -250px;
+    width: 250px;
+    height: 300px;
+    transition: all 300ms ease-in-out;
+    background-color: red;
+}
+.foter{
+    color: white;
+    justify-content: baseline;
+    text-align: right;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+#foot{
+    display: flex;
+    gap: 590px;
+    text-align: right;
+    background-color: rgb(34, 34, 34);
+}
+.slidebar .toggle-btn{
+    position: absolute;
+    top: 10px;
+    right: -40px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.slidebar .toggle-btn span{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background:#111;
+    transform: translateY(-50%);
+    transition: all 300ms ease-in-out;
+}
+.slidebar .toggle-btn span:nth-child(1){
+    top: 10%;
+}
+.slidebar .toggle-btn span:nth-child(2){
+    top: 50%;
+}
+.slidebar .toggle-btn span:nth-child(3){
+    top: 90%;
+}
+.slidebar .links a{
+    display: block;
+    padding: 15px 10px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.9ms;
+}
+.slidebar .links a.active,
+.slidebar .links a:hover{
+    background: #222;
+    color: aqua;
+    padding-left: 20px;
+}
+.slidebar.active{
+    left: 0px;
+}
+.slidebar.active .toggle-btn span:nth-child(1){
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+}
+.slidebar.active .toggle-btn span:nth-child(2){
+    display: none;
+}
+.slidebar.active .toggle-btn span:nth-child(3){
+     top: 50%;
+     transform: translateY(-50%) rotate(-45deg);
+    
+}
+@media (max-width:500px) {
+    body{
+        background-color: black;
+    }
+}
